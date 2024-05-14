@@ -7,6 +7,28 @@
    font-family: optional; 
 }
 
+body{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: color #f4f4f4;;
+}
+
+
+.form{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 25px ;
+    box-shadow: 20px  20px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
 
 .form .profile-image{
     position: relative;
@@ -17,10 +39,22 @@
     padding: 3px;
 }
 
-.form .profile-image img{
+.form .profile-image .picture{
     width: 100%;
     height: 100%;
     object-fit:cover ;
     border-radius: 50%;
     border: 2px solid white;
+}
+
+
+
+.form .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form .text-data .name{
+    font-size: 24px;
 }
