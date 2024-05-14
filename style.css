@@ -53,8 +53,70 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .form .text-data .name{
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.form .text-data .job{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+.social-media a {
+    color: #f4f4f4;
+
+}
+.social-media a i{
+    border-radius: 50%;
+    color: none;
+    margin: 0px 7px;
+    padding: 10px;
+
+}
+
+
+
+.form .buttens{
+    margin:10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .buttens .sub,.message{
+    padding: 15px;
+    margin: 0px 10px;
+    border-radius: 24px;
+    border:1px solid rgb(207, 207, 207);
+    background: rgb(44, 152, 223);
+    color: #fff;
+}
+
+
+
+.form .item-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form .item-three .item{
+    display: flex;
+    margin: 10px;
+    border-right: 2px solid rgb(203, 203, 203) ;
+    padding: 10px;
+}
+.item-three .item:last-child{
+   border-right: none;
 }
